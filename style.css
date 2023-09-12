@@ -1,0 +1,101 @@
+body {
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#logo {
+  font-family: "Comic Sans MS";
+  color: tomato;
+  text-shadow: 2px 2px 2px #000;
+}
+
+ul#nav {
+  margin: 0;
+  padding: 0;
+}
+
+ul#nav li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul#nav li a {
+  text-decoration: none;
+  padding: 10px 0;
+  color: deeppink;
+  font-weight: bold;
+}
+
+ul#nav li a:hover {
+  color: tomato;
+  border-bottom: 3px solid tomato;
+}
+
+ul#gambar {
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+}
+
+ul#gambar li {
+  list-style: none;
+  display: inline-block;
+  /* margin: 10px 10px; */
+}
+
+ul#gambar img {
+  border-style: solid;
+  border-width: 15px;
+  border-color: gainsboro;
+}
+
+ul#gambar img:hover {
+  border-style: solid;
+  border-width: 15px;
+  border-color: deeppink;
+}
+
+#daftar-btn {
+  background-color: pink;
+  color: palevioletred;
+  border-radius: 20px;
+  border: 2px solid palevioletred;
+  padding: 8px 15px;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px maroon;
+}
+
+#input-box {
+  background-color: yellow;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+
+#table-container {
+  border-collapse: collapse;
+  width: 25%;
+  border: 1px solid rgb(157, 157, 157);
+}
+
+#title td {
+  padding: 3px 3px;
+  font-weight: bold;
+  text-align: center;
+  background-color: pink;
+  border-bottom: 1px solid rgb(157, 157, 157);
+}
+
+#subtitle td {
+  padding: 3px 3px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(232, 232, 232);
+  border-bottom: 1px solid rgb(157, 157, 157);
+}
+
+#content td {
+  padding: 5px 5px;
+  border-bottom: 1px solid rgb(157, 157, 157);
+}
