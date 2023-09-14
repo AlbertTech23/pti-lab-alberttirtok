@@ -54,6 +54,7 @@ ul#gambar img:hover {
   border-style: solid;
   border-width: 15px;
   border-color: deeppink;
+  cursor: pointer;
 }
 
 #daftar-btn {
